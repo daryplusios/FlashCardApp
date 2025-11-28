@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCard">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="Welcome here !"
+        tools:layout_editor_absoluteX = "184dp"
+        tools:layout_editor_absoluteY = "215dp"/>
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="Button"
+        android:background="@drawable/icons8_annuler"
+        android:layout_marginTop="200dp"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>
