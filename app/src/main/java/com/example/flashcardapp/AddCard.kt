@@ -20,7 +20,7 @@ class AddCard : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        val buttonCancel = findViewById<Button>(R.id.button_add)
+        val buttonCancel = findViewById<Button>(R.id.button2)
         buttonCancel.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)

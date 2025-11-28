@@ -23,7 +23,6 @@
         android:id="@+id/button2"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:text="Button"
         android:background="@drawable/icons8_annuler"
         android:layout_marginTop="200dp"
         android:layout_alignParentEnd="true"/>

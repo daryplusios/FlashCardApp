@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
     tools:context=".MainActivity">
 
     <TextView
@@ -19,9 +20,9 @@
 
     <TextView
        android:id="@+id/flashcard_answer"
+        android:layout_below="@+id/flashcard_question"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_below="@+id/flashcard_question"
         android:layout_marginTop="100dp"
         android:text="Barack Obama"
         android:textStyle="italic"
@@ -30,14 +31,13 @@
         android:visibility="gone" />
 
 
-
-    <Button
+    <ImageButton
+        android:id="@+id/button_add"
         android:layout_width="200px"
         android:layout_height="200px"
-        android:id="@+id/button_add"
-        android:layout_below="@id/flashcard_answer"
-        android:background="@drawable/icons8_plus"
         android:layout_alignParentEnd="true"
-        />
+        android:layout_alignParentBottom="true"
+        android:contentDescription="FlashCardApp"
+        android:src="@drawable/icons8_plus" />
 
 </RelativeLayout>
